@@ -62,16 +62,144 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
+  font-family: 'Open Sans', sans-serif;
 
 }
+
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 75%;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 800; /* Extra bold */
+  font-size: 24px;
+  position: relative;
+  padding: 25px;
+  clear:both;
+  float: left;
+  left: 35px;
+}
+
+header h2 {
+  font-weight: 600; /* Semi bold */
+  font-size: 24px;
+  clear: both;
+  position: relative;
+  padding: 30px;
+  text-align: center;
+}
+
+#header-button {
+  background-color: #f9e42e;
+  color: #033048;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  align-content: center;
+  position: relative;
+  top: 10px;
+  padding: 5px 30px;
+}
+
+#benefits {
+  background-color: #f0efef; /* benefits background color */
+  color: #606161;
+  height: 65%;
+  padding: 50px;
+}
+
+#benefits h2 {
+  color: #033048;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#benefits p {
+  padding-top: 10px;
+  padding-right: 220px;
+}
+
+#benefits ul {
+  font-weight: 300; /* light */
+  font-size: 13px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 220px; 
+  padding-bottom: 60px;
+}
+
+li::before {
+  content: "• ";
+  color: #033048;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#testimonial {
+  background: url(../images/testimonial_bg.jpg);
+  color: white;  /* light grey */
+  height: 40%;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  padding: 30px 160px;
+  text-align: center;
+}
+
+#source {
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+}
+
+#sign-up {
+  background-color: #f9e42e; /* yellow */
+  height: 14%;
+  text-align: center;
+  padding: 14px 20px;
+}
+
+#sign-up-button {
+  background-color: #033048;  /* dark blue */
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 10px 40px;
 }
 
 footer {
+  background-color: #121212; /* almost black */
+  height: 35%;
+  font-weight: 600;
+  font-size: 9px;
+  text-align: center;
+  padding: 20px;
+}
 
+footer h1 {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+footer img {
+  padding: 15px 15px;
+  height: 45px;
+  position: relative;
+  top: 10px;
+}
+
+footer p {
+  color: white;
+  padding: 30px;
+  position: relative;
+  top: 10px;
 }
 
 /******************************************
